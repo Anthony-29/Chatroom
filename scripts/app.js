@@ -46,3 +46,4 @@ const chatroom = new Chatroom("gaming", username);
 
 // get chats & render
 chatroom.getChats((data) => chatUI.render(data));
+
